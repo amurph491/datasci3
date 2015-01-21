@@ -54,3 +54,8 @@ The units for the measurements are as follows:
 Acc = acceleration in standard gravity, or "g" units.
 Gyro = angular velocity in radians/second
 
+The run_analysis.R script
+=======================================
+The run analysis script takes the data from the researchers and extracts just the mean and std measurements.
+The data was originally divided randomly into a "training" set and a "test" set.  This script recombines all of data back into one file.
+The columns are labeled according to "features.txt" and the activity IDs are merged with activity_labels.txt
